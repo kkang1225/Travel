@@ -1,0 +1,44 @@
+@charset "utf-8";
+.clearfix:after{content:"";display:block;clear:both;}
+/*header_start*/
+#header_wrap{width:100%;height:90px;background:url(../images/04비행기.jpg) no-repeat;
+	background-size:cover;}
+.header{width:980px;height:90px;margin:0 auto;;padding-top:15px;position:relative;}
+.header .logo a{font-size:30px;color:#fff;}
+.header h3{font-weight:normal;font-size:16px;margin-left:40px;}
+.header h3 a{color:#fff;letter-spacing:5px;}
+.header img{width:37px;height:33px;float:left;}
+
+.header form{width:300px;position:absolute;top:30px;left:240px;}
+.header .sch_input{width:100%;height:30px;border:0;border-radius:20px;
+	padding:0 40px 0 20px;font-weight:bold;}
+.header .sch_btn{width:30px;height:30px;position:absolute;right:0;top:0;border:0;
+	background:none;padding:0 30px;cursor:pointer;}
+.header .tel{font-weight:normal;font-size:23px;color:#fff;position:absolute;
+	top:30px;right:180px;line-height:23px;padding:0 20px;text-align:center;}
+.header ul{position:absolute;top:27px;right:0;}
+.header li{float:left;}
+.header li a{display:block;padding:3px;}
+/*header_end*/
+
+/*gnb_start*/
+#gnb{width:100%;background:#fff;height:60px;}
+#gnb .main_gnb{width:980px;height:60px;margin:0 auto;}
+.gnb{position:relative;}
+.gnb li{float:left;border-left:2px solid #ebebeb;}
+.gnb li:last-child{border-right:2px solid #ebebeb;}
+.gnb i{color:#f84816;position:absolute;top:10px;}
+.gnb a{display:block;width:161px;line-height:60px;text-align:center;}
+.gnb a:hover{font-weight:bold;color:#0866a3;}
+
+#gnb .sub_gnb{width:100%;height:40px;background:#4f5867;position:relative;}
+.depth{width:980px;margin:0 auto;position:absolute;right:-280px;}
+.depth li{float:left;border:none;}
+.depth a{display:block;width:70px;height:40px;text-align:center;line-height:40px;
+	color:#fff;font-size:14px;}
+.depth a:hover{font-weight:bold;}
+
+/*gnb_end*/
+
+/*container_start*/
+#container_wrap{width:100%;height:200px;background:#000;}
