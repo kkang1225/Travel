@@ -43,8 +43,7 @@
 /*gnb_end*/
 
 /*container_start*/
-#container_wrapper{width:100%;height:280px;background:url(../images/ocean.jpg) no-repeat;
-	background-size:cover;}
+#container_wrapper{width:100%;_height:280px;background:url(../images/ocean.jpg) no-repeat ;}
 .text{width:500px;height:120px;margin:0px auto;}
 #container_wrapper h2{color:#fff;font-size:50px;text-align:center;text-decoration:underline;
 padding-top:80px;font-size:67px;letter-spacing:-2px;}
@@ -53,7 +52,7 @@ padding-top:80px;font-size:67px;letter-spacing:-2px;}
 
 
 .container_wrap{width:100%;margin:0 auto;}
-.container{width:980px;height:920px;margin:95px auto;background:#fff;padding-top:65px;border-bottom:2px solid #0054a6;}
+.container{width:980px;height:920px;margin:0 auto;margin-top:95px;background:#fff;padding-top:65px;border-bottom:2px solid #0054a6;}
 .content{width:890px;height:800px;margin:0 auto;background:url(../images/부자.jpg) no-repeat 480px 5px;}
 .content .require{float:left;font-size:23px;color:#7e7e7e;font-weight:bold;}
 .content .tab{float:right;}
@@ -69,7 +68,7 @@ padding-top:80px;font-size:67px;letter-spacing:-2px;}
 margin-top:40px;}
 .content .text02 p:last-child{font-size:15px;color:#7e7e7e;margin-top:20px;text-align:justify;}
 
-.content .info{/*width:480px;*//*height:220px;*/background:aliceblue;float:left;}
+.content .info{width:480px;/*height:220px;background:aliceblue;float:left;}
 
 /*footer_start*/
 footer{width:980px;height:120px;margin:0 auto;background:#000;}
