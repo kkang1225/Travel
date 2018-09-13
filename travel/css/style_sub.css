@@ -68,7 +68,7 @@ padding-top:80px;font-size:67px;letter-spacing:-2px;}
 margin-top:40px;}
 .content .text02 p:last-child{font-size:15px;color:#7e7e7e;margin-top:20px;text-align:justify;}
 
-.content .info{width:480px;/*height:220px;background:aliceblue;float:left;}
+.content .info{width:480px;background:aliceblue;float:left;}
 
 /*footer_start*/
 footer{width:980px;height:120px;margin:0 auto;background:#000;}
